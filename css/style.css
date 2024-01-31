@@ -1,10 +1,11 @@
+
+
 body {
-    font-family:fantasy
-    
+   
 }
 
 nav {
-    background-color: #D9ADD6;
+    background-color: #e6a9e1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +18,7 @@ nav {
 }
 
 .Menu li a {
-    padding: 10px 25px
+    padding: 10px 15px
 } 
 
 nav .Logo {
@@ -28,13 +29,37 @@ nav .Menu li a {
     color: white;
     text-decoration: none;
     font-weight: 200;
+    font-weight: bold;
 }
 
 nav .Menu li {
     list-style: none;
-    padding: 10px
+    padding: 5px
 }
 
 nav .Menu li:hover {
     background-color: rbg (36,36,36);
+}
+
+.search-box {
+    
+    background-color:#faedf9;
+    height: 18px;
+    padding: 7px 15px;
+    border-radius: 50px;
+    width: 600px;
+    align-self:center
+    
+}
+
+
+.search-box input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 570px
+}
+
+.search-box a {
+    color: #e6a9e1;
 }
