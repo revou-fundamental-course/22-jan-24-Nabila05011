@@ -1,0 +1,40 @@
+body {
+    font-family:fantasy
+    
+}
+
+nav {
+    background-color: #D9ADD6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 50px;
+}
+
+.Menu{
+    display: flex;
+}
+
+.Menu li a {
+    padding: 10px 25px
+} 
+
+nav .Logo {
+    
+}
+
+nav .Menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+nav .Menu li {
+    list-style: none;
+    padding: 10px
+}
+
+nav .Menu li:hover {
+    background-color: rbg (36,36,36);
+}
